@@ -124,8 +124,7 @@ class Library extends Component {
                             pageNumber={this.state.pageNumber}
                             filter={this.state.filter}
                             search={this.state.form}
-                            handleReservation={this.handleReservation.bind(this)}
-                            filter={this.state.filter} />
+                            handleReservation={this.handleReservation.bind(this)} />
                 {
                     this.state.bookList.length
                     ? <Paginate bookList={this.state.newList} 
